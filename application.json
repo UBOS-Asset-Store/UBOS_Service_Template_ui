@@ -5,7 +5,7 @@
     "organizationId": "Org",
     "isPublic": true,
     "createdAt": "2023-11-06T16:24:02.693Z",
-    "updatedAt": "2024-03-06T12:00:23.917Z",
+    "updatedAt": "2024-03-07T11:22:34.213Z",
     "deleted": false,
     "pages": [
         {
@@ -102,13 +102,13 @@
     "global_setting": {
         "favicon": "https://ubraine.com/wp-content/uploads/2018/09/cropped-ubraine_favicon-32x32.png",
         "title": "UBOS",
-        "css": "https://nodered-3859-65e5e7ddcc392d12000000ad.ubos.tech/css"
+        "css": "${env.get(\"nodeUrl\")}/css"
     },
     "lastDeployedAt": "2022-10-19T15:59:36.363Z",
     "is_custom_auth": true,
     "auth_mode_setting": {
         "login_id": "Login",
-        "auth_node": "https://nodered-3859-65e5e7ddcc392d12000000ad.ubos.tech/check_token",
+        "auth_node": "${env.get(\"nodeUrl\")}/check_token",
         "registry_id": "Registration",
         "other_pages": [
             "queryToResetPassword",
