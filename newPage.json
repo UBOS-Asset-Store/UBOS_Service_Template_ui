@@ -7158,7 +7158,9 @@
                                                                     {
                                                                         "key": "isDisabled"
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "placeholderText": "0001",
+                                                                "tooltip": "SKU should follow the following format: \"0001\""
                                                             },
                                                             {
                                                                 "isVisible": true,
@@ -7447,6 +7449,86 @@
                                                                     }
                                                                 ],
                                                                 "onClick": "{{GenerateQR.run(() => showAlert('QR for equipment was successfully generated','success'), () => showAlert('Equipment with this SKU already exist','error'))}}"
+                                                            },
+                                                            {
+                                                                "isVisible": "{{!getWarehouses.data || getWarehouses.data.length === 0}}",
+                                                                "text": "Address is required, please create it on the page 'Warehouse'",
+                                                                "fontSize": "PARAGRAPH",
+                                                                "fontStyle": "BOLD",
+                                                                "textAlign": "LEFT",
+                                                                "textColor": "#DD4B34",
+                                                                "truncateButtonColor": "#DD4B34",
+                                                                "widgetName": "Text5",
+                                                                "shouldTruncate": false,
+                                                                "overflow": "TRUNCATE",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "TEXT_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Text",
+                                                                "key": "pnpge3ulyt",
+                                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                                "widgetId": "4mew4xleos",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 17.2255859375,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 2,
+                                                                "rightColumn": 29,
+                                                                "topRow": 39,
+                                                                "bottomRow": 43,
+                                                                "parentId": "ult6kdokm5",
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "isVisible"
+                                                                    }
+                                                                ],
+                                                                "dynamicTriggerPathList": [],
+                                                                "dynamicPropertyPathList": [
+                                                                    {
+                                                                        "key": "isVisible"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "isVisible": "{{!getCategory.data || getCategory.data.length === 0}}",
+                                                                "text": "Category is required, please create it on the page 'Category'",
+                                                                "fontSize": "PARAGRAPH",
+                                                                "fontStyle": "BOLD",
+                                                                "textAlign": "LEFT",
+                                                                "textColor": "#DD4B34",
+                                                                "truncateButtonColor": "#DD4B34",
+                                                                "widgetName": "Text6",
+                                                                "shouldTruncate": false,
+                                                                "overflow": "TRUNCATE",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "TEXT_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Text",
+                                                                "key": "pnpge3ulyt",
+                                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                                "widgetId": "ozt5mxyc2f",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 17.2255859375,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 36,
+                                                                "rightColumn": 63,
+                                                                "topRow": 39,
+                                                                "bottomRow": 43,
+                                                                "parentId": "ult6kdokm5",
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "isVisible"
+                                                                    }
+                                                                ],
+                                                                "dynamicTriggerPathList": [],
+                                                                "dynamicPropertyPathList": [
+                                                                    {
+                                                                        "key": "isVisible"
+                                                                    }
+                                                                ]
                                                             }
                                                         ],
                                                         "minHeight": 400,
@@ -7579,18 +7661,9 @@
                         "Button2",
                         "StatusInput",
                         "IconButton1",
-                        "Checkbox_isClient",
-                        "SidebarFunction",
-                        "Canvas10",
-                        "Accordion1",
-                        "Image1",
-                        "Text1",
-                        "HeaderFunction",
-                        "Canvas11",
-                        "title_page",
-                        "headerIconButton",
-                        "headerText",
-                        "headerImage"
+                        "Text5",
+                        "Text6",
+                        "Checkbox_isClient"
                     ],
                     "deleted": false,
                     "policies": [],
