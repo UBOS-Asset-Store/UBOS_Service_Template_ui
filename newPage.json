@@ -17177,7 +17177,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Обладнання",
+                                                "label": "Equipment",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17257,7 +17257,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Зовнішній стан",
+                                                "label": "External condition",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17293,7 +17293,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Комплектація",
+                                                "label": "Complete set",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17329,7 +17329,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Зауваження та заключення",
+                                                "label": "Remarks and conclusions",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17365,7 +17365,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Клієнт",
+                                                "label": "Client",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17561,7 +17561,7 @@
                                             },
                                             {
                                                 "isVisible": true,
-                                                "label": "Націнка",
+                                                "label": "Mark-up",
                                                 "labelPosition": "Left",
                                                 "labelAlignment": "left",
                                                 "labelWidth": "10",
@@ -17989,7 +17989,7 @@
                                                                 "labelPosition": "Left",
                                                                 "labelAlignment": "left",
                                                                 "labelWidth": "10",
-                                                                "options": "[  {\n    \"label\": \"Капітальний\",\n    \"value\": \"Капітальний\"\n  },\n  {\n    \"label\": \"Профілактика\",\n    \"value\": \"Профілактика\"\n  },\n  {\n    \"label\": \"Діагностика\",\n    \"value\":\"Діагностика\"\n  },\n\t{\n\t\"label\":\"Ремонт поза сервісом\",\n\t\"value\": \"Ремонт поза сервісом\"\n\t}] ",
+                                                                "options": "[  {\n    \"label\": \"Capital\",\n    \"value\": \"Capital\"\n  },\n  {\n    \"label\": \"Prevention\",\n    \"value\": \"Prevention\"\n  },\n  {\n    \"label\": \"Diagnostics\",\n    \"value\":\"Diagnostics\"\n  },\n\t{\n\t\"label\":\"Repair out of service\",\n\t\"value\": \"Repair out of service\"\n\t}] ",
                                                                 "serverSideFiltering": false,
                                                                 "widgetName": "Select_typy_repair",
                                                                 "defaultOptionValue": "{{appsmith.URL.queryParams._id? getSingleRepair.data[0].typeRepair : \"\"}}",
