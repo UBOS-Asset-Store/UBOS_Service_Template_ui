@@ -7369,7 +7369,7 @@
                                                                 "labelWidth": 5,
                                                                 "widgetName": "StatusInput",
                                                                 "version": 2,
-                                                                "defaultText": "{{appsmith.URL.queryParams._id? GetItem.data.status : \"готове\"}}",
+                                                                "defaultText": "{{appsmith.URL.queryParams._id? GetItem.data.status : \"ready\"}}",
                                                                 "iconAlign": "left",
                                                                 "autoFocus": false,
                                                                 "labelStyle": "",

@@ -2162,7 +2162,7 @@
         "pluginType": "API",
         "pluginId": "API",
         "createdAt": "2022-08-29T13:08:42.296Z",
-        "updatedAt": "2024-03-05T13:54:20.696Z",
+        "updatedAt": "2024-05-02T12:27:38.931Z",
         "deleted": false,
         "policies": [
             {
@@ -2191,7 +2191,6 @@
                 "invalids": [],
                 "isValid": true,
                 "pluginId": "API",
-                "organizationId": "Org",
                 "messages": []
             },
             "executeOnLoad": true,
@@ -2213,15 +2212,11 @@
                 ],
                 "path": ""
             },
-            "dynamicBindingPathList": [
-                {
-                    "key": "datasourceUrl"
-                }
-            ],
+            "dynamicBindingPathList": [],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "main.env.uiUrl"
+                "main.env.uiUrl} }/api/v1/pages,API,Modules,GET,none,datasourceUrl,main.env.uiUrl,DEFAULT_REST_DATASOURCE,{{main.env.uiUrl"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
