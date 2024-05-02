@@ -13857,7 +13857,7 @@
                                                                 "dynamicTriggerPathList": []
                                                             },
                                                             {
-                                                                "isVisible": true,
+                                                                "isVisible": false,
                                                                 "label": "Price for client",
                                                                 "labelPosition": "Left",
                                                                 "labelAlignment": "right",
@@ -13893,7 +13893,7 @@
                                                                 "dynamicTriggerPathList": []
                                                             },
                                                             {
-                                                                "isVisible": true,
+                                                                "isVisible": false,
                                                                 "iconName": "reset",
                                                                 "borderRadius": "CIRCLE",
                                                                 "boxShadow": "NONE",
@@ -14005,18 +14005,7 @@
                         "PriceInput",
                         "Text5",
                         "InputPriceForClient",
-                        "IconButton1",
-                        "SidebarFunction",
-                        "Canvas10",
-                        "Accordion1",
-                        "Image1",
-                        "Text1",
-                        "HeaderFunction",
-                        "Canvas11",
-                        "title_page",
-                        "headerIconButton",
-                        "headerText",
-                        "headerImage"
+                        "IconButton1"
                     ],
                     "deleted": false,
                     "policies": [],
